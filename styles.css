@@ -8,23 +8,27 @@
 
 .container {
   width: 280px;
-  height: 500px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 100px auto;
   background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px gray;
 }
 
-.container img{
-    width: 100%;
-    border-radius: 10px;
+.container img {
+  width: 100%;
+  border-radius: 10px;
 }
-.attribution, h3, p {
-    background: none;
-    margin: 10px 0;
-    text-align: center;
+.attribution,
+h3,
+p {
+  background: none;
+  margin: 10px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
 }
